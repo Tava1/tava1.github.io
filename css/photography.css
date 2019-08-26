@@ -1,0 +1,35 @@
+/* 4 FOTOS EM COLUNAS */
+
+.photo-column {
+  background: black;
+  height: 600px;
+  grid-column: span 3;
+}
+
+#photo-column-a {
+  background: url(../assets/fotografias/guuuster/guster.jpg)no-repeat center;
+  background-size: cover;
+}
+#photo-column-b {
+  background: url(../assets/fotografias/guuuster/camera.jpg)no-repeat center;
+  background-size: cover;
+}
+#photo-column-c {
+  background: url(../assets/fotografias/guuuster/trem.jpg)no-repeat center;
+  background-size: cover;
+}
+#photo-column-d {
+  background: url(../assets/fotografias/guuuster/cidade-interior.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.block-photo {
+  background: black;
+  height: 500px;
+  grid-column: span 12;
+}
+
+#block-photo-a {
+  background: url(../assets/fotografias/guuuster/porshe.jpg)no-repeat bottom center;
+  background-size: cover;
+}
