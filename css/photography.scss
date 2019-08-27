@@ -84,6 +84,32 @@
   }
 }
 
+//Dropped Society logo 
+.droppedsociety-logo {
+  text-align: center;
+  h2 {
+    a {
+      img {
+        width: 290px;
+      }
+    }
+  }
+}
+
+//Conteudo e textos
+.text-content-photography {
+  p {
+    margin: 1em 0;
+    text-align: center;
+    strong {
+      text-decoration-line: underline;
+    }
+  }
+  a {
+    color: #000000;
+  }
+}
+
 //dropped society fotos
 
 .rows {
@@ -117,20 +143,7 @@
   }
 }
 
-//conteudo e textos
 
-.text-content-photography {
-  p {
-    margin: 1em 0;
-    text-align: center;
-    strong {
-      text-decoration-line: underline;
-    }
-  }
-  a {
-    color: #000000;
-  }
-}
 
 
 

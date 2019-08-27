@@ -13,6 +13,10 @@
   font-weight: 400;
 }
 
+* p {
+  font-size: 1.25em;
+}
+
 .line {
   margin-top: 2em;
   border-bottom: 1px solid #bbbbbb;
@@ -49,10 +53,10 @@
   margin: 0;
 }
 
-.text-content {
+.text-content-centered {
+  text-align: center;
   margin: 0 1em;
 }
-
 
 /* 
 link da fonte:

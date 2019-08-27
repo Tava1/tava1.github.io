@@ -103,6 +103,28 @@
   background-size: cover;
 }
 
+.droppedsociety-logo {
+  text-align: center;
+}
+
+.droppedsociety-logo h2 a img {
+  width: 290px;
+}
+
+.text-content-photography p {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.text-content-photography p strong {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.text-content-photography a {
+  color: #000000;
+}
+
 .rows {
   margin: 1em;
 }
@@ -143,20 +165,6 @@
   grid-row: 4 / 5;
   background: url(../assets/fotografias/droppedst/civic.jpg) no-repeat center;
   background-size: cover;
-}
-
-.text-content-photography p {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.text-content-photography p strong {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.text-content-photography a {
-  color: #000000;
 }
 
 .footer-section {
