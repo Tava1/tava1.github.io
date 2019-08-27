@@ -1,9 +1,9 @@
-@charset "UTF-8";
 /* Importando arquivos de estilos */
 @import url("./grid.css");
 @import url("./photography.css");
 @import url("./header.css");
 @import url("./footer.css");
+
 /* Definindo padrões */
 * {
   margin: 0;
@@ -16,25 +16,27 @@
   text-align: center;
   margin: 3em 0;
   padding: 1em 0;
+  
+  h2 {
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
+  h3 {
+    font-size: 2.50em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
 }
 
-.title h2 {
-  font-size: 2em;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
 
-.title h3 {
-  font-size: 2.50em;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
+
 
 /* 
 link da fonte:
 https://fonts.google.com/selection?selection.family=Red+Hat+Text:400,500,700
 https://fonts.google.com/specimen/Lexend+Deca
 */
-/*# sourceMappingURL=style.css.map */
+

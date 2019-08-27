@@ -1,14 +1,10 @@
 .container-12 {
-  margin: 0 1em;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   grid-gap: 7px;
 }
-
-@media screen and (min-width: 900px) {
-   .container-12 {
-     margin: 0 auto;
-     width: 900px;
-   } 
-}
-
+/*# sourceMappingURL=grid.css.map */

@@ -1,35 +1,174 @@
 /* 4 FOTOS EM COLUNAS */
+.columns {
+  margin: 1em;
+}
 
-.photo-column {
-  background: black;
+.columns .column-spacing {
+  background: #000000;
   height: 600px;
   grid-column: span 3;
 }
 
-#photo-column-a {
-  background: url(../assets/fotografias/guuuster/guster.jpg)no-repeat center;
-  background-size: cover;
-}
-#photo-column-b {
-  background: url(../assets/fotografias/guuuster/camera.jpg)no-repeat center;
-  background-size: cover;
-}
-#photo-column-c {
-  background: url(../assets/fotografias/guuuster/trem.jpg)no-repeat center;
-  background-size: cover;
-}
-#photo-column-d {
-  background: url(../assets/fotografias/guuuster/cidade-interior.jpg)no-repeat center;
+.columns #photo-column-a {
+  background: url(../assets/fotografias/guuuster/guster.jpg) no-repeat center;
   background-size: cover;
 }
 
-.block-photo {
-  background: black;
+.columns #photo-column-b {
+  background: url(../assets/fotografias/guuuster/camera.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.columns #photo-column-c {
+  background: url(../assets/fotografias/guuuster/trem.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.columns #photo-column-d {
+  background: url(../assets/fotografias/guuuster/cidade-interior.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.walls {
+  margin: 1em;
+}
+
+.walls .wall-spacing {
+  background: #000000;
+  height: 350px;
+  grid-column: span 12;
+}
+
+.walls #wall-photo-a {
+  background: url(../assets/fotografias/guuuster/porshe.jpg) no-repeat bottom center;
+  background-size: cover;
+}
+
+.wall-spacing {
+  background: #000000;
   height: 500px;
   grid-column: span 12;
 }
 
-#block-photo-a {
-  background: url(../assets/fotografias/guuuster/porshe.jpg)no-repeat bottom center;
+#wall-photo-a {
+  background: url(../assets/fotografias/guuuster/porshe.jpg) no-repeat bottom center;
   background-size: cover;
 }
+
+.albums {
+  margin: 1em;
+}
+
+.albums .album-portrait {
+  background: #000000;
+  grid-column: span 6;
+  height: 300px;
+}
+
+.albums .album-widescreen {
+  background: #000000;
+  grid-column: span 6;
+  height: 150px;
+}
+
+.albums #album-photo-a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  background: url(../assets/fotografias/guuuster/bandeira-sao-paulo.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.albums #album-photo-b {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  background: url(../assets/fotografias/guuuster/igreja.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.albums #album-photo-c {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background: url(../assets/fotografias/guuuster/igreja.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.albums #album-photo-d {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  background: url(../assets/fotografias/guuuster/bandeira-sao-paulo.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.rows {
+  margin: 1em;
+}
+
+.rows .row-spacing {
+  background: #000000;
+  height: 150px;
+  grid-column: span 12;
+}
+
+.rows #row-photo-a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  background: url(../assets/fotografias/droppedst/audi.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.rows #row-photo-b {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background: url(../assets/fotografias/droppedst/accord.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.rows #row-photo-c {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background: url(../assets/fotografias/droppedst/voyage.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.rows #row-photo-d {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  background: url(../assets/fotografias/droppedst/civic.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.footer-section {
+  margin: 1em;
+  padding: 0.50em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-section .social-icons a {
+  text-decoration: none;
+}
+
+.footer-section .social-icons a img {
+  width: 40px;
+}
+
+.footer-section .see-more a {
+  font-size: 1.25em;
+  color: #000000;
+}
+/*# sourceMappingURL=photography.css.map */
