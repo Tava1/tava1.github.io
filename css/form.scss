@@ -1,0 +1,58 @@
+// formulario de contado da pagina phography
+.frm-phtography {
+  margin: 2em 1em;
+  
+  form { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    input {  
+      height: 40px;
+      margin: 5px 0;
+      padding: 0 10px; 
+      border: 1px solid;
+    }
+
+    textarea {
+      height: 120px;  
+      margin: 5px 0;
+      padding: 10px; 
+      border: 1px solid;
+      resize: none;
+    }
+
+    button {
+      background-color: #000000;
+      border: none;
+      color: #ffffff;
+      font-size: 1.25em;
+      font-weight: 500;
+      padding: 10px 16px;
+      margin: 5px 0;
+    }
+    
+    input:nth-of-type(1) {
+      flex-direction: row;
+      flex: 1;
+      margin-right: 5px; 
+    }
+    input:nth-of-type(2) {
+      flex-direction: row;
+      flex: 1;
+      margin-left: 5px;
+    }
+    input:nth-of-type(3) {
+      flex-direction: column;
+      flex: 2 100%;
+    }
+    textarea:nth-of-type(1) {
+      flex-direction: column;
+      flex: 2 100%;
+    }  
+    button:nth-of-type(1) {
+      width: 25%;
+    } 
+    
+  }
+}

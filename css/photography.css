@@ -145,6 +145,20 @@
   background-size: cover;
 }
 
+.text-content-photography p {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.text-content-photography p strong {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.text-content-photography a {
+  color: #000000;
+}
+
 .footer-section {
   margin: 1em;
   padding: 0.50em 0;
