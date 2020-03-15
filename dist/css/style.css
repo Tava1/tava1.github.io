@@ -5,6 +5,7 @@
 @import url("./grid.css");
 @import url("./header.css");
 @import url("./footer.css");
+@import url("./anime.css");
 /* Definindo padrões */
 * {
   margin: 0;
@@ -55,7 +56,8 @@
 
 .text-content-centered {
   text-align: center;
-  margin: 0 1em;
+  margin: 1em auto;
+  max-width: 500px;
 }
 
 /* 

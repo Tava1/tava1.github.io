@@ -1,0 +1,31 @@
+//animando a pagina fotografias
+
+
+.anime-top {
+  opacity: 0;
+  transform: translate3d(0,-200px,0);
+  transition: 3s;
+}
+
+.anime-bottom {
+  opacity: 0;
+  transform: translate3d(0,200px,0);
+  transition: 3s;
+}
+
+.anime-right {
+  opacity: 0;
+  transform: translate3d(200px,0,0);
+  transition: 2s;
+}
+
+.anime-left {
+  opacity: 0;
+  transform: translate3d(-200px,0,0);
+  transition: 2s;
+}
+
+.anime-start {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
